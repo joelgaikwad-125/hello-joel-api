@@ -18,8 +18,7 @@ spec:
 metadata:
   description: Java application with CRUD operations
   annotations:
-    backstage.io/techdocs-ref: dir:.
-    harness.io/connector-ref: joelgithubconnector
+    backstage.io/techdocs-ref: url:https://github.com/joelgaikwad-125/hello-joel-api
   tags:
   - java
   - idp
