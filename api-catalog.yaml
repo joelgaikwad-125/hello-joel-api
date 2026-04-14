@@ -7,7 +7,7 @@ owner: user:account/joel.j.gaikwad@avyka.com
 spec:
   lifecycle: experimental
   definition:
-    $text: ./api-definition.yaml
+    $text: https://github.com/joelgaikwad-125/hello-joel-api/api-definition.yaml
 metadata:
   description: API for CRUD
   annotations:
