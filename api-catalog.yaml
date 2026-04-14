@@ -14,7 +14,7 @@ spec:
     monoRepo: false
     url: https://github.com/joelgaikwad-125/hello-joel-api/tree/main
   definition:
-    $text: https://github.com/joelgaikwad-125/hello-joel-api/main/src/main/api-definition.yaml
+    $yaml: ./api-definition.yaml
 metadata:
   description: API for CRUD
   tags:
