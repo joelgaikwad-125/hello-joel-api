@@ -19,6 +19,7 @@ metadata:
   description: Java application with CRUD operations
   annotations:
     backstage.io/techdocs-ref: dir:.
+    harness.io/connector-ref: joelgithubconnector
   tags:
   - java
   - idp
