@@ -18,7 +18,7 @@ spec:
 metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
-    backstage.io/source-location: url:https://github.com/joelgaikwad-125/hello-joel-api
+    backstage.io/source-location: url:https://github.com/joelgaikwad-125/hello-joel-api/blob/main/README.md
   tags:
   - idp
   - java
