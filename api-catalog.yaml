@@ -6,13 +6,6 @@ name: joel-auth-poc1
 owner: user:account/joel.j.gaikwad@avyka.com
 spec:
   lifecycle: experimental
-  sourceCode:
-    provider: Github
-    repoName: hello-joel-api
-    connectorRef: account.joelgithubconnector
-    branch: main
-    monoRepo: false
-    url: https://github.com/joelgaikwad-125/hello-joel-api/tree/main
   definition:
     $yaml: ./api-definition.yaml
 metadata:
