@@ -1,0 +1,55 @@
+apiVersion: harness.io/v1
+kind: API
+type: openapi
+identifier: joelidpjavaauth
+name: joel-idp-java-auth
+owner: user:account/joel.j.gaikwad@avyka.com
+orgIdentifier: default
+projectIdentifier: Joel_Playground
+spec:
+  lifecycle: experimental
+  sourceCode:
+    provider: Github
+    repoName: hello-joel-api
+    connectorRef: joelgithubconnector
+    branch: main
+    monoRepo: false
+    url: https://github.com/joelgaikwad-125/hello-joel-api/tree/main
+  definition: |
+    paths:
+      /message:
+        get:
+          summary: Get message
+          responses:
+            '200':
+              description: OK
+
+        post:
+          summary: Create message
+          requestBody:
+            required: true
+          responses:
+            '200':
+              description: Created
+
+        put:
+          summary: Update message
+          requestBody:
+            required: true
+          responses:
+            '200':
+              description: Updated
+
+        delete:
+          summary: Delete message
+          responses:
+            '200':
+              description: Deleted
+metadata:
+  annotations:
+    backstage.io/source-location: url:https://github.com/joelgaikwad-125/hello-joel-api
+  tags:
+  - idp
+  - java
+  - springboot
+  - api
