@@ -6,8 +6,41 @@ name: joel-auth-poc1
 owner: user:account/joel.j.gaikwad@avyka.com
 spec:
   lifecycle: experimental
-  definition:
-    $text: https://github.com/joelgaikwad-125/hello-joel-api/api-definition.yaml
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Hello Joel API
+      version: 1.0.0
+
+    paths:
+      /message:
+        get:
+          summary: Get message
+          responses:
+            '200':
+              description: OK
+
+        post:
+          summary: Create message
+          requestBody:
+            required: true
+          responses:
+            '200':
+              description: Created
+
+        put:
+          summary: Update message
+          requestBody:
+            required: true
+          responses:
+            '200':
+              description: Updated
+
+        delete:
+          summary: Delete message
+          responses:
+            '200':
+              description: Deleted
 metadata:
   description: API for CRUD
   annotations:
