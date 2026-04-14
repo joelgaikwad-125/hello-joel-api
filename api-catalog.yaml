@@ -10,6 +10,8 @@ spec:
     $text: ./api-definition.yaml
 metadata:
   description: API for CRUD
+  annotations:
+    backstage.io/source-location: url:https://github.com/joelgaikwad-125/hello-joel-api
   tags:
   - idp
   - api
