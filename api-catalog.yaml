@@ -7,7 +7,7 @@ owner: user:account/joel.j.gaikwad@avyka.com
 spec:
   lifecycle: experimental
   definition:
-    $yaml: ./api-definition.yaml
+    $text: ./api-definition.yaml
 metadata:
   description: API for CRUD
   tags:
