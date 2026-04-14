@@ -16,6 +16,9 @@ spec:
     monoRepo: false
     url: https://github.com/joelgaikwad-125/hello-joel-api/tree/main
 metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/joelgaikwad-125/hello-joel-api
   tags:
   - idp
   - java
