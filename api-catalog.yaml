@@ -16,6 +16,10 @@ spec:
     monoRepo: false
     url: https://github.com/joelgaikwad-125/hello-joel-api/tree/main
   definition: |
+    openapi: 3.0.0
+    info:
+      title: Hello Joel API
+      version: 1.0.0
     paths:
       /message:
         get:
