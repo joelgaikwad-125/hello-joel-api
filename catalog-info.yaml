@@ -20,7 +20,8 @@ spec:
 metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
-    harness.io/pipelines: '[{"identifier":"joelidppipeline","projectIdentifier":"Joel_Playground","orgIdentifier":"default"}]'
+    harness.io/pipelines: |
+      STO: https://app.harness.io/ng/account/gLXLxjTmQhGmdJXhAORKag/module/ci/orgs/default/projects/Joel_Playground/pipelines/joelidppipeline/pipeline-studio/?storeType=INLINE
     backstage.io/source-location: url:https://github.com/joelgaikwad-125/hello-joel-api
   tags:
   - idp
