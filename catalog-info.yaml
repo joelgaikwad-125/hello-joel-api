@@ -19,7 +19,7 @@ spec:
   - api:account.default.Joel_Playground/joelidpjavaauth
 metadata:
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/joelgaikwad-125/hello-joel-api
+    backstage.io/techdocs-ref: dir:.
     harness.io/pipelines: |
       STO: https://app.harness.io/ng/account/gLXLxjTmQhGmdJXhAORKag/module/ci/orgs/default/projects/Joel_Playground/pipelines/joelidppipeline/pipeline-studio/?storeType=INLINE
   tags:
